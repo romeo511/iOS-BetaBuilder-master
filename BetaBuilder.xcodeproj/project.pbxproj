@@ -239,7 +239,8 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
-						DevelopmentTeam = 7347CE2QV8;
+						DevelopmentTeam = UA46X9GX8L;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -328,8 +329,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = UA46X9GX8L;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_MODEL_TUNING = G5;
@@ -340,8 +343,10 @@
 				INFOPLIST_FILE = "BetaBuilder-Info.plist";
 				INSTALL_PATH = /Applications;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanchorllc.iosbetabuilder1;
 				PRODUCT_NAME = "BetaBuilder for iOS Apps";
-				PROVISIONING_PROFILE = "1f4ce4c3-6dc8-414b-91e7-0e52d41820d1";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -352,8 +357,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UA46X9GX8L;
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -362,8 +369,10 @@
 				INFOPLIST_FILE = "BetaBuilder-Info.plist";
 				INSTALL_PATH = /Applications;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanchorllc.iosbetabuilder1;
 				PRODUCT_NAME = "BetaBuilder for iOS Apps";
-				PROVISIONING_PROFILE = "1f4ce4c3-6dc8-414b-91e7-0e52d41820d1";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
